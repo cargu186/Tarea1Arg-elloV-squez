@@ -4,7 +4,7 @@ ERROR_BAD_ARGUMENTS = 0xA0
 
 def multiple_op(X):
     resultado = [0, 0, 0]
-    
+
     if type(X) == int and X >= 0:
         resultado[0] = X * X
         resultado[1] = 2**X
@@ -31,5 +31,5 @@ def verify_array_op(arrayN):
     else:
         print("No se ha ingresado un array")
         resultado = ERROR_BAD_ARGUMENTS
-    
+
     return resultado

@@ -1,5 +1,6 @@
 import math
 
+
 def multiple_op(X):
     resultado = [0, 0, 0]
     ERROR_BAD_ARGUMENTS = 0xA0
